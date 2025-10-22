@@ -1,0 +1,21 @@
+/* TODO */
+body{
+    text-align: center;
+
+}
+button{
+    height: 100px;
+    width: 200px;
+    color:white;
+    background-color: violet;
+    font-size: 150%;
+    font-weight: bolder;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(192, 98, 186);
+    border-style: solid;
+}
+button:hover{
+    background-color: rgb(162, 5, 155);
+    border-color: rgb(91, 1, 76);
+}

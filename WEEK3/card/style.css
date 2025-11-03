@@ -1,0 +1,243 @@
+:root {
+  --bg: #0d0d0d;
+  --panel: #141414;
+  --muted: #9b9b9b;
+  --accent: #d9d9d9;
+  --glass: rgba(255, 255, 255, 0.04);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 50px;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg, #0b0b0b 0%, #1a1a1a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrap {
+  padding: 30px;
+}
+
+.card {
+  width: 820px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
+  border-radius: 10px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  background: linear-gradient(90deg, #222 0%, #161616 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+.web-icon {
+  width: 25px;
+  height: 25px;
+}
+.cat-icon {
+
+  width: 50px;
+  height: 50px;
+}
+.topper {
+  background: #2b2b2b;
+  color: var(--accent);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  width: 100%;
+}
+
+
+
+.dots {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 18px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.avatar-wrap {
+  width: 180px;
+  height: 185px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 6px solid rgba(255, 255, 255, 0.03);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(45deg, #202020, #141414);
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(100%) contrast(0.9);
+}
+
+
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+
+.right-top {
+  display: flex;
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 24px;
+}
+.right-top .user-info{flex:1}
+.right-top .links{width:220px}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.user-info {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.username {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.98rem;
+}
+
+.status {
+  color: var(--muted);
+  margin: 6px 0;
+}
+
+.note {
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 8px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.note h4 {
+  margin: 0 0 6px 0;
+  color: var(--accent);
+}
+
+.note ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.links {
+  width: 220px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.02), transparent);
+  height: 185px;
+}
+
+.links h3 {
+  color: var(--accent);
+  margin: 0 0 8px 0;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.links a {
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid #dbd7d7;
+  border-width: 0 0 1px 0;
+}
+
+.quotes {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), transparent);
+  color: #f9f8f8;
+}
+
+.Quotes {
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  margin-bottom: 8px;
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.Quotes h4 {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.98rem;
+}
+
+.Quotes p {
+  margin: 6px 0;
+  color: var(--muted);
+}
+
+.more {
+  color: var(--muted);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.player {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.015), transparent);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  height: 500px;
+  /* width: 400px; */
+}
+
+.spotify-embed iframe {
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  height: 470px;
+  margin: auto;
+}

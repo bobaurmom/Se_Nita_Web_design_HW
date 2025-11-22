@@ -1,0 +1,19 @@
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+.card {
+    height: 150px;
+    width: 50px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #de2c2c;
+}
+.top{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}

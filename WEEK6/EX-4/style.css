@@ -28,11 +28,13 @@ body {
     flex-direction: column;
     gap: 14px;
 }
+
 .nav-menu {
     display: flex;
     gap: 20px;
     flex: 1;
     margin-left: 40px;
+    
 }
 
 .nav-menu a {

@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #1a0033;
+    background-color: #24043c;
     color: #ffffff;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -18,7 +18,7 @@ body {
     align-items: center;
     padding: 15px 20px;
     background-color: #2d0a4e;
-    border: 2px solid #d946ef;
+    border: 2px solid #a309ea;
     border-radius: 20px;
     margin-bottom: 30px;
 }
@@ -53,7 +53,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #3d1a5f;
-    border: 1px solid #d946ef;
+    border: 1px solid #a309ea;
     border-radius: 15px;
     padding: 8px 12px;
     width: 500px;
@@ -88,14 +88,13 @@ main {
 
 .card-1 {
     background-color: #2d0a4e;
-    border: 1px solid #d946ef;
+    border: 1px solid #a309ea;
     border-radius: 10px;
     padding: 20px;
 }
-
 .card-2 {
     background-color: #2d0a4e;
-    border: 1px solid #d946ef;
+    border: 1px solid #a309ea;
     border-radius: 10px;
     padding: 20px;
     height: 300px;
@@ -107,7 +106,7 @@ main {
 
 .line {
     height: 1px;
-    background-color: #d946ef;
+    background-color: #a309ea;
     margin: 15px 0 20px 0;
 }
 
@@ -121,7 +120,7 @@ main {
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background-color: #d946ef;
+    background-color: #a309ea;
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -146,9 +145,8 @@ main {
 
 .bar {
     flex: 1;
-    background-color: #d946ef;
+    background-color: #a309ea;
     border-radius: 5px 5px 0 0;
-    min-height: 10px;
 }
 
 
@@ -161,7 +159,7 @@ main {
 
 }
 
-.songs {
+.song {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 5px;
@@ -174,7 +172,7 @@ main {
 
 .right-section {
     background-color: #2d0a4e;
-    border: 1px solid #d946ef;
+    border: 1px solid #a309ea;
     border-radius: 10px;
     padding: 15px;
     display: flex;
